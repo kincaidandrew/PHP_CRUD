@@ -5,7 +5,7 @@
  */
 $host = "localhost";//"Laragon.MySQL";
 $username = "root";
-$password = "Ballymore100!";
+$password = "root";
 $dbname = "test"; // will use later
 $dsn = "mysql:host=$host;dbname=$dbname"; // will use later
 $options = array(
