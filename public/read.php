@@ -29,15 +29,15 @@
         <h2>Results</h2>
             <table>
                 <thead> 
-                    <th>#</th>
-                        <tr>
-                            <th>First Name</th>
-                            <th>Last Name</th>
-                            <th>Email Address</th>
-                            <th>Age</th>
-                            <th>Location</th>
-                            <th>Date</th>
-                        </tr>
+                    <tr>
+                        <th>#</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Email Address</th>
+                        <th>Age</th>
+                        <th>Location</th>
+                        <th>Date</th>
+                    </tr>
                 </thead>
                 <tbody>
                     <?php foreach ($result as $row) { ?>

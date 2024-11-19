@@ -1,13 +1,10 @@
 
 <?php
-    // require "../common.php";
-    // if (isset($_GET['id'])) {
-    //     echo $_GET['id']; // for testing purposes
-    // } else {
-    //     echo "Something went wrong!";
-    //     exit;
-    // } 
-
+    /**
+     * Use an HTML form to edit an entry in the
+     * users table.
+     * 
+     */
     require "../common.php";
     
     if (isset($_POST['submit'])) {
@@ -57,7 +54,9 @@
 ?>
 
 <?php require "templates/header.php"; ?>
-    
+<?php if (isset($_POST['submit']) && $statement) : ?>
+<?php echo escape($_POST['firstname']); ?> successfully updated.
+<?php endif; ?>    
 <h2>Edit a user</h2>
     <form method="post">
         <?php foreach ($user as $key => $value) : ?>

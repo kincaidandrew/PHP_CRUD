@@ -1,5 +1,6 @@
 
 <?php
+    global $success; //this variable was made global to be able to use further down in code
     /**
      * Delete a user
      */
